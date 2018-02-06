@@ -34,7 +34,7 @@ For this lab, we'll be using GitHub to demonstrate how Git remotes work, and how
 
 16. In order for the changes made on GitHub (via the pull request) to show up locally, you must _pull_ them. Use `git pull origin master` to pull down and merge changes from GitHub into your local "master" branch.
 
-17. Run `git branch`. You'll note that the branch you created is still present, even though it has been deleted from GitHub. Use `git branch -d <branchname>` or `git fetch origin --prune` to remove the extra branch.
+17. Run `git branch`. You'll note that the branch you created is still present, even though it has been deleted from GitHub. Use `git branch -d <branchname>` followed by `git fetch origin --prune` to remove the extra branch and any references to it.
 
 18. Is your local repository in sync with the GitHub repository now?
 
